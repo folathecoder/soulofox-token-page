@@ -5,10 +5,17 @@ import HeroSection from "./components/sections/HeroSection";
 import ProjectSection from "./components/sections/ProjectSection";
 import LandSection from "./components/sections/LandSection";
 import VideoSection from "./components/sections/VideoSection";
+import TeamSection from "./components/sections/TeamSection";
 import Footer from "./components/sections/Footer";
 
 // Data Imports
-import { heroData, projectData, landData, footerData } from "./data/Data";
+import {
+  heroData,
+  projectData,
+  landData,
+  teamData,
+  footerData,
+} from "./data/Data";
 
 function App() {
   return (
@@ -17,6 +24,7 @@ function App() {
       <ProjectSection data={projectData} />
       <LandSection data={landData} />
       <VideoSection />
+      <TeamSection data={teamData} />
       <Footer data={footerData} />
     </main>
   );

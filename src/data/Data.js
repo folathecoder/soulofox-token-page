@@ -1,6 +1,12 @@
 // import heroImage from "../images/home/placeholder.png";
 import runningFox from "../images/home/running-fox.png";
 import landMap from "../images/home/land-map.png";
+import jay from "../images/home/team/jay.png";
+import shin from "../images/home/team/shin.png";
+import arun from "../images/home/team/arun.png";
+import maurice from "../images/home/team/maurice.png";
+import andrew from "../images/home/team/andrew.png";
+import volume from "../images/home/team/volume.png";
 
 export const heroData = {
   heading: "Let the Adventure Begin..",
@@ -57,6 +63,72 @@ export const landData = {
     imageSrc: landMap,
     imageAlt: "land ownership map",
   },
+};
+
+export const teamData = {
+  heading: "Team",
+  team: [
+    {
+      id: 1,
+      name: "Jay",
+      role: "Game Designer",
+      location: "Singapore",
+      image: {
+        imageSrc: jay,
+        imageAlt: "Jay",
+      },
+    },
+    {
+      id: 2,
+      name: "Shin",
+      role: "Lead Artist",
+      location: "Taiwan",
+      image: {
+        imageSrc: shin,
+        imageAlt: "Shin",
+      },
+    },
+    {
+      id: 3,
+      name: "Arun",
+      role: "Blockchain Developer",
+      location: "Germany",
+      image: {
+        imageSrc: arun,
+        imageAlt: "Arun",
+      },
+    },
+    {
+      id: 4,
+      name: "Maurice",
+      role: "Marketing Lead",
+      location: "Germany/Mexico",
+      image: {
+        imageSrc: maurice,
+        imageAlt: "Maurice",
+      },
+    },
+    {
+      id: 5,
+      name: "Andrew",
+      role: "Animation",
+      location: "Malaysia",
+      image: {
+        imageSrc: andrew,
+        imageAlt: "Andrew",
+      },
+    },
+    {
+      id: 6,
+      name: "Volume",
+      role: "Frontend Developer",
+      location: "Malaysia",
+      image: {
+        imageSrc: volume,
+        imageAlt: "Volume",
+      },
+    },
+  ],
 };
 
 export const footerData = {

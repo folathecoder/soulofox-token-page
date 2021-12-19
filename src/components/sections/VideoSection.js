@@ -1,4 +1,5 @@
 import React from "react";
+import "../../global.css";
 
 const VideoSection = () => {
   return (
@@ -10,7 +11,7 @@ const VideoSection = () => {
           </h2>
         </div>
         <div className="flex items-center justify-center pt-9 pb-9">
-          <div className="border-4 border-200">
+          <div className="border-4 border-200 videoWrapper">
             <iframe
               width="760"
               height="515"
