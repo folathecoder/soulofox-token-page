@@ -1,5 +1,6 @@
-import heroImage from "../images/home/placeholder.png";
+// import heroImage from "../images/home/placeholder.png";
 import runningFox from "../images/home/running-fox.png";
+import landMap from "../images/home/land-map.png";
 
 export const heroData = {
   heading: "Let the Adventure Begin..",
@@ -9,17 +10,52 @@ export const heroData = {
     text: "Get Started",
   },
   image: {
-    imageSrc: heroImage,
+    imageSrc: landMap,
     imageAlt: "",
   },
 };
 
 export const projectData = {
   heading: "Project Concept",
-  text: "Members of our team are all big 2D RPG fans, so in this project we are aiming to build a RPG game where NFT owners can use their NFT as character in the game and earn FoxyCoin. The game will be a multiplayer game where foxians can socialize, level up through defeating enemies, join raids, earn FoxyCoin and much more. We want players to feel the nostalgia of 2D RPG and bring back memories that thrilled their heart in the past.",
+  text: [
+    {
+      id: 1,
+      text: "Members of our team are all big 2D RPG fans, so in this project we are aiming to build a RPG game where NFT owners can use their NFT as character in the game and earn FoxyCoin.",
+    },
+    {
+      id: 2,
+      text: "The game will be a multiplayer game where foxians can socialize, level up through defeating enemies, join raids, earn FoxyCoin and much more.",
+    },
+    {
+      id: 3,
+      text: "We want players to feel the nostalgia of 2D RPG and bring back memories that thrilled their heart in the past.",
+    },
+  ],
   image: {
     imageSrc: runningFox,
     imageAlt: "running fox",
+  },
+};
+
+export const landData = {
+  heading: "Land Ownership",
+  text: [
+    {
+      id: 1,
+      text: "Players will be able to acquire a piece of land in the game world using FoxyCoin.",
+    },
+    {
+      id: 2,
+      text: "Owning the land unlocks the ability of generate dungeons. Raids will be randomly selected on one of the dungeons daily.",
+    },
+    {
+      id: 3,
+      text: "10% of the raids income will belong to the land owners.",
+    },
+  ],
+  image: {
+    imageSrc: landMap,
+    imageAlt: "land ownership map",
   },
 };
 

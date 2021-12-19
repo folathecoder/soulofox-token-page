@@ -1,4 +1,4 @@
-const ProjectSection = ({ data }) => {
+const LandSection = ({ data }) => {
   return (
     <section className="max-w-full pt-9 pb-9 flex items-center">
       <div className="container">
@@ -7,13 +7,13 @@ const ProjectSection = ({ data }) => {
             {data.heading}
           </h2>
         </div>
-        <div className="flex flex-col items-center md:flex-row">
-          <div className="flex flex-1 justify-center items-center lg:justify-start">
-            <div>
+        <div className="flex flex-col md:flex-row-reverse">
+          <div className="flex flex-1 justify-center items-center lg:justify-end mt-9 mb-9">
+            <div className="max-w-lg">
               <img src={data.image.imageSrc} alt={data.image.imageAlt} />
             </div>
           </div>
-          <div className="flex flex-1  justify-center items-center max-w-md m-auto md:text-left  whitespace-normal pt-5">
+          <div className="flex flex-1 justify-center items-center max-w-md m-auto md:text-left whitespace-normal lg:justify-end">
             <ul>
               {data.text.map((text) => {
                 return (
@@ -35,4 +35,4 @@ const ProjectSection = ({ data }) => {
   );
 };
 
-export default ProjectSection;
+export default LandSection;
