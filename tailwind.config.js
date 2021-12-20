@@ -9,6 +9,9 @@ module.exports = {
         400: "#413B38",
         500: "#ffffff",
       },
+      shadow: {
+        100: "0px 4px 4px rgba(0, 0, 0, 0.25), inset 0px 0px 6px 5px #61280F",
+      },
     },
     fontFamily: {
       Sanchez: ["Sanchez, serif"],

@@ -1,6 +1,7 @@
 // import heroImage from "../images/home/placeholder.png";
 import runningFox from "../images/home/running-fox.png";
 import landMap from "../images/home/land-map.png";
+import foxyCoinChart from "../images/home/foxycoinChart.png";
 import jay from "../images/home/team/jay.png";
 import shin from "../images/home/team/shin.png";
 import arun from "../images/home/team/arun.png";
@@ -40,6 +41,42 @@ export const projectData = {
   image: {
     imageSrc: runningFox,
     imageAlt: "running fox",
+  },
+};
+
+export const foxyCoinData = {
+  heading: "FoxyCoin Token",
+  supply: "Total Supply: 1 Billion Tokens",
+  subHeading: "Key Token Utilities:",
+  text: [
+    {
+      id: 1,
+      text: "In game store",
+    },
+    {
+      id: 2,
+      text: "P2P marketplace",
+    },
+    {
+      id: 3,
+      text: "Community NFT Store",
+    },
+    {
+      id: 4,
+      text: "Staking Rewards",
+    },
+    {
+      id: 5,
+      text: "NFT drops from future Gen based on staked levels",
+    },
+    {
+      id: 6,
+      text: "Discounts on Stores",
+    },
+  ],
+  image: {
+    imageSrc: foxyCoinChart,
+    imageAlt: "foxycoin chart",
   },
 };
 
