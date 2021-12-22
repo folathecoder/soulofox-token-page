@@ -8,6 +8,8 @@ import LandSection from "./components/sections/LandSection";
 import VideoSection from "./components/sections/VideoSection";
 import TeamSection from "./components/sections/TeamSection";
 import Footer from "./components/sections/Footer";
+import Header from "./components/sections/Header";
+import NftSection from "./components/sections/NftSection";
 
 // Data Imports
 import {
@@ -19,11 +21,14 @@ import {
   footerData,
 } from "./data/Data";
 
+
 function App() {
   return (
     <main className="max-w-full min-h-screen bg-100 text-500 font-Sanchez">
+      <Header />
       <HeroSection data={heroData} />
       <ProjectSection data={projectData} />
+      <NftSection />
       <FoxyCoinSection data={foxyCoinData} />
       <LandSection data={landData} />
       <VideoSection data={foxyCoinData} />
