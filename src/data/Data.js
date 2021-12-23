@@ -9,6 +9,45 @@ import maurice from "../images/home/team/maurice.png";
 import andrew from "../images/home/team/andrew.png";
 import volume from "../images/home/team/volume.png";
 
+export const headerData = {
+  heading: {
+    text: "SOULOFOX",
+    link: "#",
+  },
+  link1: {
+    text: "Concept",
+    link: "#",
+  }, 
+  link2: {
+    text: "NFT",
+    link: "#",
+  },
+  link3: {
+    text: "Foxycoin",
+    link: "#",
+  },
+  link4: {
+    text: "Wallet",
+    link: "#",
+  },
+  link5: {
+    text: "EtsGameFi",
+    link: "#",
+  },
+  link6: {
+    text: "Roadmap",
+    link: "#",
+  },
+  tailLogoImage: {
+    imageSrc: "#",
+    alt: "",
+  },
+  soulofoxLogoImage: {
+    imageSrc: "#",
+    imageAlt: "",
+  },
+};
+
 export const heroData = {
   heading: "Let the Adventure Begin..",
   text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere consectetur accusamus rerum ea.",
