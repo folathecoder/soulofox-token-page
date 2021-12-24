@@ -17,7 +17,7 @@ export const headerData = {
   link1: {
     text: "Concept",
     link: "#",
-  }, 
+  },
   link2: {
     text: "NFT",
     link: "#",
