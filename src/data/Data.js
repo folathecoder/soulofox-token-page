@@ -83,6 +83,50 @@ export const projectData = {
   },
 };
 
+export const nftsData = {
+  heading: "NFTS",
+  souloText: [
+    {
+      id: 1,
+      text: "Members of our team are all big 2D RPG fans, so in this project we are aiming to build a RPG game where NFT owners can use their NFT as character in the game and earn FoxyCoin.",
+    },
+    {
+      id: 2,
+      text: "The game will be a multiplayer game where foxians can socialize, level up through defeating enemies, join raids, earn FoxyCoin and much more.",
+    },
+    {
+      id: 3,
+      text: "We want players to feel the nostalgia of 2D RPG and bring back memories that thrilled their heart in the past.",
+    },
+  ],
+  communityText: [
+    {
+      id: 1,
+      text: "Members of our team are all big 2D RPG fans, so in this project we are aiming to build a RPG game where NFT owners can use their NFT as character in the game and earn FoxyCoin.",
+    },
+    {
+      id: 2,
+      text: "The game will be a multiplayer game where foxians can socialize, level up through defeating enemies, join raids, earn FoxyCoin and much more.",
+    },
+    {
+      id: 3,
+      text: "We want players to feel the nostalgia of 2D RPG and bring back memories that thrilled their heart in the past.",
+    },
+  ],
+  souloButton: {
+    link: "#",
+    text: "SouloFox NFT",
+  },
+  communityButton: {
+    link: "#",
+    text: "Community NFT",
+  },
+  image: {
+    imageSrc: "#",
+    imageAlt: "",
+  },
+};
+
 export const foxyCoinData = {
   heading: "FoxyCoin Token",
   supply: "Total Supply: 1 Billion Tokens",

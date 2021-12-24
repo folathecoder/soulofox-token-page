@@ -21,6 +21,7 @@ import {
   headerData,
   heroData,
   projectData,
+  nftsData,
   foxyCoinData,
   landData,
   teamData,
@@ -35,7 +36,7 @@ function App() {
       <Header data={headerData}/>
       <HeroSection data={heroData} />
       <ProjectSection data={projectData} />
-      <NftSection /> //needs work
+      <NftSection data={nftsData}/> 
       <FoxyCoinSection data={foxyCoinData} />
       <SouloFoxWalletSection /> //needs work
       <GameFiSection /> //needs work

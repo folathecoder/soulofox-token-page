@@ -1,12 +1,14 @@
 import React from "react";
 
-const NftSection = () => {
+const NftSection = ({ data }) => {
   const [openTab, setOpenTab] = React.useState(1);
 
   return (
     <section>
       <div>
-        <h2 className="text-2xl text-200 text-center pt-5 pb-5">NFTS</h2>
+        <h2 className="text-2xl text-200 text-center pt-5 pb-5">
+          {data.heading}
+        </h2>
       </div>
       <div className="flex flex-wrap">
         <div className="w-full">
@@ -28,7 +30,7 @@ const NftSection = () => {
                 href="#link1"
                 role="tablist"
               >
-                SouloFox NFT
+                {data.souloButton.text}
               </a>
             </li>
             <li className="-mb-px pr-10 last:mr-0 flex-auto text-center">
@@ -45,42 +47,48 @@ const NftSection = () => {
                 href="#link2"
                 role="tablist"
               >
-                Community NFT
+                {data.communityButton.text}
               </a>
             </li>
           </ul>
           <div className="relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded">
             <div className="px-4 py-5 flex-auto">
-              <div className="tab-content tab-space">
+              <div className="tab-content tab-space pl-6">
                 <div className={openTab === 1 ? "block" : "hidden"} id="link1">
-                  <p>
-                    3dum distinctio ea voluptatibus qui quod obcaecati eius
-                    minima officiis assumenda dolorum minus. Lorem ipsum dolor
-                    sit amet consectetur adipisicing elit. Perspiciatis error
-                    quia numquam dolore vitae fuga nulla dicta, dum distinctio
-                    ea voluptatibus qui quod obcaecati eius minima officiis
-                    assumenda dolorum minus.
-                    <br />
-                    <br /> Lorem ipsum dolor sit amet consectetur adipisicing
-                    elit. Perspiciatis error quia numquam dolore vitae fuga
-                    nulla dicta, dum ddum distinctio ea istinctio ea
-                    voluptatibus qui quod obcaecati eius minima officiis
-                    assumenda dolorum minus.
-                  </p>
+                  <div className=" max-w-2xl  md:text-left  whitespace-normal pt-5">
+                    <ul>
+                      {data.souloText.map((text) => {
+                        return (
+                          <li key={text.id} className="flex mb-5">
+                            <div className="mr-4 text-200">
+                              <i className="fas fa-dot-circle"></i>
+                            </div>
+                            <div>
+                              <p>{text.text}</p>
+                            </div>
+                          </li>
+                        );
+                      })}
+                    </ul>
+                  </div>
                 </div>
                 <div className={openTab === 2 ? "block" : "hidden"} id="link2">
-                  <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Perspiciatis error quia numquam dolore vitae fuga nulla
-                    dicta, dum distinctio ea voluptatibus qui quod obcaecati
-                    eius minima officiis assumenda dolorum minus.
-                    <br />
-                    <br />
-                    dum distinctio ea voluptatibus qui quod obcaecati eius
-                    minima officiis assumenda dolorum minus.re vitae fuga nulla
-                    dicta, dum distinctio ea voluptatibus qui quod obcaecati
-                    eius minima officiis assumenda dolorum minus.
-                  </p>
+                  <div className=" max-w-2xl  md:text-left  whitespace-normal pt-5">
+                    <ul>
+                      {data.communityText.map((text) => {
+                        return (
+                          <li key={text.id} className="flex mb-5">
+                            <div className="mr-4 text-200">
+                              <i className="fas fa-dot-circle"></i>
+                            </div>
+                            <div>
+                              <p>{text.text}</p>
+                            </div>
+                          </li>
+                        );
+                      })}
+                    </ul>
+                  </div>
                 </div>
               </div>
             </div>
