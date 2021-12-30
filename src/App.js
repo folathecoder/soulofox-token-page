@@ -31,6 +31,9 @@ import {
 
 
 function App() {
+
+  
+
   return (
     <main className="max-w-full min-h-screen bg-100 text-500 font-Sanchez">
       <Header data={headerData}/>

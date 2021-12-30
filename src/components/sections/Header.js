@@ -3,6 +3,9 @@ import React from "react";
 const Header = ({data}) => {
   const [navbarOpen, setNavbarOpen] = React.useState(false);
 
+  
+
+
   return (
     <header>
       <nav className="relative flex flex-wrap items-center justify-between px-2 py-3 bg-blueGray-500 mb-3">
