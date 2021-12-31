@@ -9,6 +9,45 @@ import maurice from "../images/home/team/maurice.png";
 import andrew from "../images/home/team/andrew.png";
 import volume from "../images/home/team/volume.png";
 
+export const headerData = {
+  heading: {
+    text: "SOULOFOX",
+    link: "#",
+  },
+  link1: {
+    text: "Concept",
+    link: "#",
+  },
+  link2: {
+    text: "NFT",
+    link: "#",
+  },
+  link3: {
+    text: "Foxycoin",
+    link: "#",
+  },
+  link4: {
+    text: "Wallet",
+    link: "#",
+  },
+  link5: {
+    text: "EtsGameFi",
+    link: "#",
+  },
+  link6: {
+    text: "Roadmap",
+    link: "#",
+  },
+  tailLogoImage: {
+    imageSrc: "#",
+    alt: "",
+  },
+  soulofoxLogoImage: {
+    imageSrc: "#",
+    imageAlt: "",
+  },
+};
+
 export const heroData = {
   heading: "Let the Adventure Begin..",
   text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere consectetur accusamus rerum ea.",
@@ -41,6 +80,50 @@ export const projectData = {
   image: {
     imageSrc: runningFox,
     imageAlt: "running fox",
+  },
+};
+
+export const nftsData = {
+  heading: "NFTS",
+  souloText: [
+    {
+      id: 1,
+      text: "Members of our team are all big 2D RPG fans, so in this project we are aiming to build a RPG game where NFT owners can use their NFT as character in the game and earn FoxyCoin.",
+    },
+    {
+      id: 2,
+      text: "The game will be a multiplayer game where foxians can socialize, level up through defeating enemies, join raids, earn FoxyCoin and much more.",
+    },
+    {
+      id: 3,
+      text: "We want players to feel the nostalgia of 2D RPG and bring back memories that thrilled their heart in the past.",
+    },
+  ],
+  communityText: [
+    {
+      id: 1,
+      text: "Members of our team are all big 2D RPG fans, so in this project we are aiming to build a RPG game where NFT owners can use their NFT as character in the game and earn FoxyCoin.",
+    },
+    {
+      id: 2,
+      text: "The game will be a multiplayer game where foxians can socialize, level up through defeating enemies, join raids, earn FoxyCoin and much more.",
+    },
+    {
+      id: 3,
+      text: "We want players to feel the nostalgia of 2D RPG and bring back memories that thrilled their heart in the past.",
+    },
+  ],
+  souloButton: {
+    link: "#",
+    text: "SouloFox NFT",
+  },
+  communityButton: {
+    link: "#",
+    text: "Community NFT",
+  },
+  image: {
+    imageSrc: "#",
+    imageAlt: "",
   },
 };
 
