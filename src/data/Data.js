@@ -88,29 +88,29 @@ export const nftsData = {
   souloText: [
     {
       id: 1,
-      text: "Members of our team are all big 2D RPG fans, so in this project we are aiming to build a RPG game where NFT owners can use their NFT as character in the game and earn FoxyCoin.",
+      text: "2,222 unique and programmatically generated from over 100 different attributes. Attributes are carefully designed following the lore.",
     },
     {
       id: 2,
-      text: "The game will be a multiplayer game where foxians can socialize, level up through defeating enemies, join raids, earn FoxyCoin and much more.",
+      text: "Holders of SouloFox NTF's will have access to the game using the NFT as characters.",
     },
     {
       id: 3,
-      text: "We want players to feel the nostalgia of 2D RPG and bring back memories that thrilled their heart in the past.",
+      text: "Gen 0 Soulofox will only have 2,222 and will never increase.",
+    },
+    {
+      id: 4,
+      text: "Gen 0 Soulofox NFTs will have background at the current stage of lore (Aruguya Jungle & Forbidding Tundra) and will not be released anymore in future.",
     },
   ],
   communityText: [
     {
       id: 1,
-      text: "Members of our team are all big 2D RPG fans, so in this project we are aiming to build a RPG game where NFT owners can use their NFT as character in the game and earn FoxyCoin.",
+      text: "In Soulofox, we aim to build a community that is fun, engaging, and rewarding. Hence, we developed the discord $foxy-coin system where foxians can earn the coin through playing games, staying active, inviting new members, or even robbing from other foxians! (in a fun way)",
     },
     {
       id: 2,
-      text: "The game will be a multiplayer game where foxians can socialize, level up through defeating enemies, join raids, earn FoxyCoin and much more.",
-    },
-    {
-      id: 3,
-      text: "We want players to feel the nostalgia of 2D RPG and bring back memories that thrilled their heart in the past.",
+      text: "The discord $foxy-coin can be used to redeem community NFT in our discord foxian store, including pfp, 3d NFT, 3d miniworld..etc",
     },
   ],
   souloButton: {
@@ -164,14 +164,14 @@ export const foxyCoinData = {
 };
 
 export const soulofoxWalletData = {
-  heading: "Soulofox Wallet",
-  subHeading: "Our wallets will be funded adequately funded as below:",
+  heading: "Soulofox Wallets",
+  subHeading: "Our wallets will be funded adequately funded as below: ",
   text1:
-    "lorem ipsum dolor sit amet consectetur adipisicing elit. Facere consectetur accusamus rerum ea.",
+    "Community Wallet (SOLANA balance)20%  NFT sales (buyback floor price/NFT Burn)2%   Secondary NFT sales40%  Community NFT store income",
   text2:
-    "lorem ipsum dolor sit amet consectetur adipisicing elit. Facere consectetur accusamus rerum ea.",
+    "Marketing/Partnership wallet (FOXYCOIN balance)10%  Token supply2%   P2P marketplace commissions1%   Secondary NFT sales10%  Community NFT store income",
   text3:
-    "lorem ipsum dolor sit amet consectetur adipisicing elit. Facere consectetur accusamus rerum ea.",
+    "Game Ecosystem Wallet (FOXYCOIN balance)8%  P2P marketplace commissions30%  Token Supply10%  Community NFT store income100%  In game store income",
   imageSrc1: "#",
   imageSrc2: "#",
   imageSrc3: "#",
