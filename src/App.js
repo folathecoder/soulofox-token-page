@@ -23,7 +23,10 @@ import {
   projectData,
   nftsData,
   foxyCoinData,
+  soulofoxWalletData,
+  gameFiData,
   landData,
+  gameProgressData,
   teamData,
   footerData,
 } from "./data/Data";
@@ -36,17 +39,17 @@ function App() {
 
   return (
     <main className="max-w-full min-h-screen bg-100 text-500 font-Sanchez">
-      <Header data={headerData}/>
+      <Header data={headerData} />
       <HeroSection data={heroData} />
       <ProjectSection data={projectData} />
-      <NftSection data={nftsData}/> 
+      <NftSection data={nftsData} />
       <FoxyCoinSection data={foxyCoinData} />
-      <SouloFoxWalletSection /> //needs work
-      <GameFiSection /> //needs work
+      <SouloFoxWalletSection data={soulofoxWalletData} />
+      <GameFiSection data={gameFiData} />
       <LandSection data={landData} />
-      <GameProgressSelection /> //needs work
+      <GameProgressSelection data={gameProgressData} />
       <VideoSection data={foxyCoinData} />
-      <RoadMapSection /> //needs work
+      <RoadMapSection />
       <TeamSection data={teamData} />
       <Footer data={footerData} />
     </main>

@@ -163,6 +163,27 @@ export const foxyCoinData = {
   },
 };
 
+export const soulofoxWalletData = {
+  heading: "Soulofox Wallet",
+  subHeading: "Our wallets will be funded adequately funded as below:",
+  text1:
+    "lorem ipsum dolor sit amet consectetur adipisicing elit. Facere consectetur accusamus rerum ea.",
+  text2:
+    "lorem ipsum dolor sit amet consectetur adipisicing elit. Facere consectetur accusamus rerum ea.",
+  text3:
+    "lorem ipsum dolor sit amet consectetur adipisicing elit. Facere consectetur accusamus rerum ea.",
+  imageSrc1: "#",
+  imageSrc2: "#",
+  imageSrc3: "#",
+};
+
+export const gameFiData = {
+  heading: "GameFi",
+  text1: "The universe of Soulofox is dominated by a evil creature called Zadir.Foxian would have to level up by defeating animals or plants that has been possessed by Zadir. Foxian will earn Foxycoin and level up through defeating enemies and taking part in raids with other foxians. The NFT will be a rare skin where players c  an use it in the game to showcase their cool NFT!",
+  text2: "To incentivise player in playing, FoxyCoin token and NFTs (armors, weapons, accessories, and pet) will be dropped during boss fight in raid. Player will need to level up themselves through daily quests and defeating the enemies to challenge a higher level raid. Every NFTs acquire in game can then be sold on the marketplace to obtain Foxycoin token. There are also in game stores where players can purchase non-NFT consumables items like red potions, mana potions, arrow..etc from a NPC using Foxycoin. There will be a 10% transaction fee from P2P marketplace. Both the foxy-coin from P2P marketplace transaction fee and in game store will be used to maintain the Soulofox ecosystem.",
+  image: "#",
+};
+
 export const landData = {
   heading: "Land Ownership",
   text: [
@@ -183,6 +204,15 @@ export const landData = {
     imageSrc: landMap,
     imageAlt: "land ownership map",
   },
+};
+
+export const gameProgressData = {
+  heading: "Game Development In Progress",
+  subHeading: "Game is being developed using Unity.",
+  image1: "#",
+  image2: "#",
+  text1: "Character Animation Design",
+  text2: "Game Level Design",
 };
 
 export const teamData = {
