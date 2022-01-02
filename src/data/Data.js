@@ -88,29 +88,29 @@ export const nftsData = {
   souloText: [
     {
       id: 1,
-      text: "Members of our team are all big 2D RPG fans, so in this project we are aiming to build a RPG game where NFT owners can use their NFT as character in the game and earn FoxyCoin.",
+      text: "2,222 unique and programmatically generated from over 100 different attributes. Attributes are carefully designed following the lore.",
     },
     {
       id: 2,
-      text: "The game will be a multiplayer game where foxians can socialize, level up through defeating enemies, join raids, earn FoxyCoin and much more.",
+      text: "Holders of SouloFox NTF's will have access to the game using the NFT as characters.",
     },
     {
       id: 3,
-      text: "We want players to feel the nostalgia of 2D RPG and bring back memories that thrilled their heart in the past.",
+      text: "Gen 0 Soulofox will only have 2,222 and will never increase.",
+    },
+    {
+      id: 4,
+      text: "Gen 0 Soulofox NFTs will have background at the current stage of lore (Aruguya Jungle & Forbidding Tundra) and will not be released anymore in future.",
     },
   ],
   communityText: [
     {
       id: 1,
-      text: "Members of our team are all big 2D RPG fans, so in this project we are aiming to build a RPG game where NFT owners can use their NFT as character in the game and earn FoxyCoin.",
+      text: "In Soulofox, we aim to build a community that is fun, engaging, and rewarding. Hence, we developed the discord $foxy-coin system where foxians can earn the coin through playing games, staying active, inviting new members, or even robbing from other foxians! (in a fun way)",
     },
     {
       id: 2,
-      text: "The game will be a multiplayer game where foxians can socialize, level up through defeating enemies, join raids, earn FoxyCoin and much more.",
-    },
-    {
-      id: 3,
-      text: "We want players to feel the nostalgia of 2D RPG and bring back memories that thrilled their heart in the past.",
+      text: "The discord $foxy-coin can be used to redeem community NFT in our discord foxian store, including pfp, 3d NFT, 3d miniworld..etc",
     },
   ],
   souloButton: {
@@ -163,6 +163,27 @@ export const foxyCoinData = {
   },
 };
 
+export const soulofoxWalletData = {
+  heading: "Soulofox Wallets",
+  subHeading: "Our wallets will be funded adequately funded as below: ",
+  text1:
+    "Community Wallet (SOLANA balance)20%  NFT sales (buyback floor price/NFT Burn)2%   Secondary NFT sales40%  Community NFT store income",
+  text2:
+    "Marketing/Partnership wallet (FOXYCOIN balance)10%  Token supply2%   P2P marketplace commissions1%   Secondary NFT sales10%  Community NFT store income",
+  text3:
+    "Game Ecosystem Wallet (FOXYCOIN balance)8%  P2P marketplace commissions30%  Token Supply10%  Community NFT store income100%  In game store income",
+  imageSrc1: "#",
+  imageSrc2: "#",
+  imageSrc3: "#",
+};
+
+export const gameFiData = {
+  heading: "GameFi",
+  text1: "The universe of Soulofox is dominated by a evil creature called Zadir.Foxian would have to level up by defeating animals or plants that has been possessed by Zadir. Foxian will earn Foxycoin and level up through defeating enemies and taking part in raids with other foxians. The NFT will be a rare skin where players c  an use it in the game to showcase their cool NFT!",
+  text2: "To incentivise player in playing, FoxyCoin token and NFTs (armors, weapons, accessories, and pet) will be dropped during boss fight in raid. Player will need to level up themselves through daily quests and defeating the enemies to challenge a higher level raid. Every NFTs acquire in game can then be sold on the marketplace to obtain Foxycoin token. There are also in game stores where players can purchase non-NFT consumables items like red potions, mana potions, arrow..etc from a NPC using Foxycoin. There will be a 10% transaction fee from P2P marketplace. Both the foxy-coin from P2P marketplace transaction fee and in game store will be used to maintain the Soulofox ecosystem.",
+  image: "#",
+};
+
 export const landData = {
   heading: "Land Ownership",
   text: [
@@ -183,6 +204,15 @@ export const landData = {
     imageSrc: landMap,
     imageAlt: "land ownership map",
   },
+};
+
+export const gameProgressData = {
+  heading: "Game Development In Progress",
+  subHeading: "Game is being developed using Unity.",
+  image1: "#",
+  image2: "#",
+  text1: "Character Animation Design",
+  text2: "Game Level Design",
 };
 
 export const teamData = {
