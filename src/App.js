@@ -22,7 +22,10 @@ import {
   projectData,
   nftsData,
   foxyCoinData,
+  soulofoxWalletData,
+  gameFiData,
   landData,
+  gameProgressData,
   teamData,
   footerData,
 } from "./data/Data";
@@ -35,10 +38,10 @@ function App() {
       <ProjectSection data={projectData} />
       <NftSection data={nftsData} />
       <FoxyCoinSection data={foxyCoinData} />
-      <SouloFoxWalletSection />
-      <GameFiSection />
+      <SouloFoxWalletSection data={soulofoxWalletData} />
+      <GameFiSection data={gameFiData} />
       <LandSection data={landData} />
-      <GameProgressSelection />
+      <GameProgressSelection data={gameProgressData} />
       <VideoSection data={foxyCoinData} />
       <RoadMapSection />
       <TeamSection data={teamData} />
