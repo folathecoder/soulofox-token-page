@@ -15,7 +15,6 @@ import GameFiSection from "./components/sections/GameFiSection";
 import GameProgressSelection from "./components/sections/GameProgressSelection";
 import RoadMapSection from "./components/sections/RoadMapSection";
 
-
 // Data Imports
 import {
   headerData,
@@ -31,12 +30,7 @@ import {
   footerData,
 } from "./data/Data";
 
-
-
 function App() {
-
-  
-
   return (
     <main className="max-w-full min-h-screen bg-100 text-500 font-Sanchez">
       <Header data={headerData} />
