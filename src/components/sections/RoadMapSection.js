@@ -1,44 +1,44 @@
-const RoadMapSection = () => {
+
+
+const RoadMapSection = ({ data }) => {
+  
+  const rdmap = "https://i.imgur.com/wHExAln.png";
+
   return (
     <section>
       <div>
         <h2 className="text-2xl text-200 text-center pt-5 pb-5">RoadMap</h2>
       </div>
 
-      <div className="container grid grid-cols-3 gap-4 ">
+      <div
+        className="container grid grid-cols-3 gap-4"
+        style={{
+          backgroundImage: `url(${rdmap})`,
+          backgroundPosition: "center",
+          backgroundRepeat: "no-repeat",
+          backgroundSize: "70%",
+        }}
+      >
         <div className="">
           <div className="flex flex-col justify-center items-center ">
             <div className="text-center ">
               2022 Q1
-              <p className="  ">
-                Merchandise shop will be opened. Land ownership feature will be
-                released. Game beta version will be released.
-              </p>
+              <p className="m-2 mb-10">{data.text[0].text1}</p>
               2021 OCT
-              <p className=" ">
-                2,222 Foxian NFT will be released. Community wallet will be
-                setup for our foxians members.
-              </p>
+              <p className="m-2">{data.text[1].text2}</p>
             </div>
           </div>
         </div>
         <div className="">
-          image goes here <img className="" src="" alt="" />
+          {/* <img className="" src={data.imageSrc} alt="" /> */}
         </div>
         <div className="">
-          
           <div className="flex flex-col justify-center items-center ">
             <div className="text-center ">
               2022 Q2
-              <p className="  ">
-                Full game released with play to earn feature.
-              </p>
+              <p className="m-2 mb-10">{data.text[2].text3}</p>
               2021 Q4
-              <p className=" ">
-                FoxyCoin token will be released and NFT owners will start
-                receiving token by holding the NFTs. Staking Pool will be
-                launched.
-              </p>
+              <p className="m-2">{data.text[3].text4}</p>
             </div>
           </div>
         </div>

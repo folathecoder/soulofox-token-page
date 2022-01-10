@@ -6,9 +6,11 @@ const GameFiSection = ({data}) => {
           {data.heading}
         </h2>
 
-        <div className="container">
-          <p>{data.text1}</p>
-          <p>{data.text2}</p>
+        <div className="container flex">
+          <p>
+            {data.text1}
+            {data.text2}
+          </p>
           <img src={data.image} alt="" />
         </div>
       </div>

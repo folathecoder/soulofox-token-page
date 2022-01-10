@@ -8,6 +8,17 @@ import arun from "../images/home/team/arun.png";
 import maurice from "../images/home/team/maurice.png";
 import andrew from "../images/home/team/andrew.png";
 import volume from "../images/home/team/volume.png";
+import gmdevprog1 from "../images/home/Picture1 2gmdevprog.png";
+import gmdevprog2 from "../images/home/2 1gmdevprog2.png";
+import paws from "../images/home/Component 1paws.png";
+import soulofox from "../images/home/logoslfx (1).png";
+import nftsctionimage from "../images/home/Picture 2nftsction.png";
+import nftsctionimage2 from "../images/home/Picture2 1nftsectionimage2.png";
+import gmfisectionimage from "../images/home/Picture4 1gamfisct.png";
+import rdmapimage from "../images/home/Untitled-1 1rdmap.png";
+import cldimage from "../images/home/云2cld.png";
+import moneybagimage from "../images/home/钱moneybag.png";
+
 
 export const headerData = {
   heading: {
@@ -43,14 +54,14 @@ export const headerData = {
     alt: "",
   },
   soulofoxLogoImage: {
-    imageSrc: "#",
+    imageSrc: soulofox,
     imageAlt: "",
   },
 };
 
 export const heroData = {
   heading: "Let the Adventure Begin..",
-  text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere consectetur accusamus rerum ea.",
+  text: "Welcome to the SouloFox token page!.",
   button: {
     link: "#",
     text: "Get Started",
@@ -122,7 +133,11 @@ export const nftsData = {
     text: "Community NFT",
   },
   image: {
-    imageSrc: "#",
+    imageSrc: nftsctionimage,
+    imageAlt: "",
+  },
+  image2: {
+    imageSrc: nftsctionimage2,
     imageAlt: "",
   },
 };
@@ -172,16 +187,18 @@ export const soulofoxWalletData = {
     "Marketing/Partnership wallet (FOXYCOIN balance)10%  Token supply2%   P2P marketplace commissions1%   Secondary NFT sales10%  Community NFT store income",
   text3:
     "Game Ecosystem Wallet (FOXYCOIN balance)8%  P2P marketplace commissions30%  Token Supply10%  Community NFT store income100%  In game store income",
-  imageSrc1: "#",
-  imageSrc2: "#",
-  imageSrc3: "#",
+  imageSrc1: cldimage,
+  imageSrc2: paws,
+  imageSrc3: moneybagimage,
 };
 
 export const gameFiData = {
   heading: "GameFi",
-  text1: "The universe of Soulofox is dominated by a evil creature called Zadir.Foxian would have to level up by defeating animals or plants that has been possessed by Zadir. Foxian will earn Foxycoin and level up through defeating enemies and taking part in raids with other foxians. The NFT will be a rare skin where players c  an use it in the game to showcase their cool NFT!",
-  text2: "To incentivise player in playing, FoxyCoin token and NFTs (armors, weapons, accessories, and pet) will be dropped during boss fight in raid. Player will need to level up themselves through daily quests and defeating the enemies to challenge a higher level raid. Every NFTs acquire in game can then be sold on the marketplace to obtain Foxycoin token. There are also in game stores where players can purchase non-NFT consumables items like red potions, mana potions, arrow..etc from a NPC using Foxycoin. There will be a 10% transaction fee from P2P marketplace. Both the foxy-coin from P2P marketplace transaction fee and in game store will be used to maintain the Soulofox ecosystem.",
-  image: "#",
+  text1:
+    "The universe of Soulofox is dominated by a evil creature called Zadir.Foxian would have to level up by defeating animals or plants that has been possessed by Zadir. Foxian will earn Foxycoin and level up through defeating enemies and taking part in raids with other foxians. The NFT will be a rare skin where players c  an use it in the game to showcase their cool NFT!",
+  text2:
+    "To incentivise player in playing, FoxyCoin token and NFTs (armors, weapons, accessories, and pet) will be dropped during boss fight in raid. Player will need to level up themselves through daily quests and defeating the enemies to challenge a higher level raid. Every NFTs acquire in game can then be sold on the marketplace to obtain Foxycoin token. There are also in game stores where players can purchase non-NFT consumables items like red potions, mana potions, arrow..etc from a NPC using Foxycoin. There will be a 10% transaction fee from P2P marketplace. Both the foxy-coin from P2P marketplace transaction fee and in game store will be used to maintain the Soulofox ecosystem.",
+  image: gmfisectionimage,
 };
 
 export const landData = {
@@ -209,10 +226,33 @@ export const landData = {
 export const gameProgressData = {
   heading: "Game Development In Progress",
   subHeading: "Game is being developed using Unity.",
-  image1: "#",
-  image2: "#",
+  image1: gmdevprog1,
+  image2: gmdevprog2,
   text1: "Character Animation Design",
   text2: "Game Level Design",
+};
+
+export const roadMapData = {
+  heading: "Road Map",
+  imageSrc: rdmapimage,
+  text: [
+    {
+      id: 1,
+      text1: "Merchandise shop will be opened. Land ownership feature will be released. Game beta version will be released.",
+    },
+    {
+      id: 2,
+      text2: "2,222 Foxian NFT will be released. Community wallet will be setup for our foxians members.",
+    },
+    {
+      id: 3,
+      text3: "Full game released with play to earn feature.",
+    },
+    {
+      id: 4,
+      text4: "FoxyCoin token will be released and NFT owners will start receiving token by holding the NFTs. Staking Pool will be launched.",
+    },
+  ],
 };
 
 export const teamData = {

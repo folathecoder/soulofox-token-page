@@ -1,4 +1,4 @@
-const GameProgressSelection = ({data}) => {
+const GameProgressSelection = ({ data }) => {
   return (
     <section>
       <div>
@@ -6,18 +6,20 @@ const GameProgressSelection = ({data}) => {
           {data.heading}
         </h2>
 
-        <div className="container">
+        <div className="container p-2">
           <p>{data.subHeading}</p>
         </div>
 
         <div className="container flex">
-          <div className="flex">
+          <div className="flex justify-around">
             <img src={data.image1} alt="" />
             <img src={data.image2} alt="" />
           </div>
-          <div className="flex">
-            <p>{data.text1}</p>
-            <p>{data.text2}</p>
+        </div>
+        <div className="container">
+          <div className="flex justify-around p-2">
+            <p className="">{data.text1}</p>
+            <p className="">{data.text2}</p>
           </div>
         </div>
       </div>

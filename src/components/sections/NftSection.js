@@ -55,7 +55,7 @@ const NftSection = ({ data }) => {
             <div className="px-4 py-5 flex-auto">
               <div className="tab-content tab-space pl-6">
                 <div className={openTab === 1 ? "block" : "hidden"} id="link1">
-                  <div className=" max-w-2xl  md:text-left  whitespace-normal pt-5">
+                  <div className=" max-w-2xl  md:text-left  whitespace-normal pt-5 flex">
                     <ul>
                       {data.souloText.map((text) => {
                         return (
@@ -70,10 +70,16 @@ const NftSection = ({ data }) => {
                         );
                       })}
                     </ul>
+                    <img
+                      src={data.image.imageSrc}
+                      alt=""
+                      srcset=""
+                      className=""
+                    />
                   </div>
                 </div>
                 <div className={openTab === 2 ? "block" : "hidden"} id="link2">
-                  <div className=" max-w-2xl  md:text-left  whitespace-normal pt-5">
+                  <div className=" max-w-2xl  md:text-left  whitespace-normal pt-5 flex">
                     <ul>
                       {data.communityText.map((text) => {
                         return (
@@ -88,6 +94,7 @@ const NftSection = ({ data }) => {
                         );
                       })}
                     </ul>
+                    <img src={data.image2.imageSrc} alt="" srcset="" className=""/>
                   </div>
                 </div>
               </div>

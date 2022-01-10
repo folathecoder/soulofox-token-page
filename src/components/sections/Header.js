@@ -1,10 +1,7 @@
 import React from "react";
 
-const Header = ({data}) => {
+const Header = ({ data }) => {
   const [navbarOpen, setNavbarOpen] = React.useState(false);
-
-  
-
 
   return (
     <header>
@@ -15,7 +12,7 @@ const Header = ({data}) => {
               className="text-md font-bold leading-relaxed inline-block mr-4 py-2 whitespace-nowrap uppercase text-white"
               href={data.heading.link}
             >
-              {data.heading.text}
+              <img src={data.soulofoxLogoImage.imageSrc} alt="" srcset="" />
             </a>
             <button
               className="text-white cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none"
