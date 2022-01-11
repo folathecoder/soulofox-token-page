@@ -2,7 +2,7 @@ import LinkButton from "../slices/LinkButton";
 
 const HeroSection = ({ data }) => {
   return (
-    <section className="max-w-full flex items-center pt-9 pb-9">
+    <section className="max-w-full flex items-center pt-9 pb-9" id="home">
       <div className="container flex flex-col-reverse justify-center md:flex-row">
         <div className="flex flex-1 justify-center md:justify-start">
           <div className="flex flex-col justify-center text-center pt-5 pb-5 md:text-left">

@@ -5,7 +5,7 @@ const RoadMapSection = ({ data }) => {
   const rdmap = "https://i.imgur.com/wHExAln.png";
 
   return (
-    <section>
+    <section id="roadmap">
       <div>
         <h2 className="text-2xl text-200 text-center pt-5 pb-5">RoadMap</h2>
       </div>

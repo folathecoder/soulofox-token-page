@@ -2,7 +2,7 @@ import React from "react";
 
 const FoxyCoinSection = ({ data }) => {
   return (
-    <section className="max-w-full pt-9 pb-9 flex items-center">
+    <section className="max-w-full pt-9 pb-9 flex items-center" id="foxycoin">
       <div className="container">
         <div>
           <h2 className="text-2xl text-200 text-center pt-5 pb-5">

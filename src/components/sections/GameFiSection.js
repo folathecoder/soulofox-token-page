@@ -1,6 +1,6 @@
 const GameFiSection = ({data}) => {
   return (
-    <section>
+    <section id="etfgamefi">
       <div>
         <h2 className="text-2xl text-200 text-center pt-5 pb-5">
           {data.heading}

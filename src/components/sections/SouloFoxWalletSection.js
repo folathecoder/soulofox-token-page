@@ -1,6 +1,6 @@
 const SouloFoxWalletSection = ({ data }) => {
   return (
-    <section>
+    <section id="wallet">
       <div>
         <h2 className="text-2xl text-200 text-center pt-5 pb-5">
           {data.heading}

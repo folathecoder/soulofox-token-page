@@ -4,7 +4,7 @@ const NftSection = ({ data }) => {
   const [openTab, setOpenTab] = React.useState(1);
 
   return (
-    <section>
+    <section id="nft">
       <div>
         <h2 className="text-2xl text-200 text-center pt-5 pb-5">
           {data.heading}
@@ -94,7 +94,12 @@ const NftSection = ({ data }) => {
                         );
                       })}
                     </ul>
-                    <img src={data.image2.imageSrc} alt="" srcset="" className=""/>
+                    <img
+                      src={data.image2.imageSrc}
+                      alt=""
+                      srcset=""
+                      className=""
+                    />
                   </div>
                 </div>
               </div>
